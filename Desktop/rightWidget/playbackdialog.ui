@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_playbackDialog</class>
+ <widget class="QDialog" name="dialog_null_playbackDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_playbackDialog_back">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>31</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_playbackDialog_play">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>31</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_playbackDialog_forward">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>10</y>
+     <width>31</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_playbackDialog_speedUp">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>10</y>
+     <width>89</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>x1</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_playbackDialog_selectChannel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>86</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_playbackDialog_selectChannel">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>67</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选取通道</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_playbackDialog_warn">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>160</y>
+     <width>51</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  告警</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_playbackDialog_hide">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>10</y>
+     <width>89</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>隐藏</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider_playbackDialog_play">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>971</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

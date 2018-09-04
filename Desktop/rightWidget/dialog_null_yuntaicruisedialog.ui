@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_yunTaiCruiseDialog</class>
+ <widget class="QDialog" name="dialog_null_yunTaiCruiseDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>160</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBox_yunTaiCruiseDialog_preset">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_yunTaiCruiseDialog_stayTime">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_videoManagerDialog</class>
+ <widget class="QDialog" name="dialog_null_videoManagerDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>538</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_videoManagerDialog_found">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>56</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>已搜到的设备</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_videoManagerDialog_foundList">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>360</width>
+     <height>150</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_added">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>已添加的设备</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_videoManagerDialog_addedList">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>360</width>
+     <height>180</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_addedId">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>编号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_addedDeviceId">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>290</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设备编号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_addedDeviceName">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>290</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设备名称</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_addedIp">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>290</y>
+     <width>31</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_deviceId">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设备编号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_id">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>41</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>编号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_deviceName">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>90</y>
+     <width>80</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设备名称</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_ip">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>90</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerDialog_addedConnection">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>290</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>连接状态</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_findDevice">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>110</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>搜索设备</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_addDevice">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>150</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加设备</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_addAll">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>190</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加所有</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_move">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>310</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>移除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_moveall">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>340</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>移除所有</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_nvrNetworkSet">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>370</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NVR网络设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_setIp">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>400</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>一键设置IP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_IpcVideoSource">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>430</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IPC视频源</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_channelSort">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>460</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>通道排序</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_sure">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>500</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_cancel">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>500</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_videoManagerDialog_use">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>500</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>应用</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>视频管理</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>0</y>
+     <width>50</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

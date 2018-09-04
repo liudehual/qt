@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_videoManagerFoundDialog</class>
+ <widget class="QDialog" name="dialog_null_videoManagerFoundDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_videoManagerFoundDialog_number">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerFoundDialog_deviceNum">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerFoundDialog_deviceName">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>0</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_videoManagerFoundDialog_deviceIp">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>0</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

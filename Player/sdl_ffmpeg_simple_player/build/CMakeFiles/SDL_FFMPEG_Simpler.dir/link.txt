@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/SDL_FFMPEG_Simpler.dir/Main.cpp.o CMakeFiles/SDL_FFMPEG_Simpler.dir/FileIo.cpp.o CMakeFiles/SDL_FFMPEG_Simpler.dir/Player.cpp.o  -o SDL_FFMPEG_Simpler -rdynamic -lavformat -lavcodec -lavutil -lswresample -lswscale -lSDL 

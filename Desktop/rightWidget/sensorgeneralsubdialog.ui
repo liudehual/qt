@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_sensorGeneralSubDialog</class>
+ <widget class="QDialog" name="dialog_null_sensorGeneralSubDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_sensorGeneralSubDialog_number">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_sensorGeneralSubDialog_waterLevel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>0</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_sensorGeneralSubDialog_type">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>0</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_sensorGeneralSubDialog_low">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>0</y>
+     <width>51</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_sensorGeneralSubDialog_height">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>0</y>
+     <width>51</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>0</y>
+     <width>40</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

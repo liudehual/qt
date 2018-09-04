@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_moveTestSetSubDialog</class>
+ <widget class="QDialog" name="dialog_null_moveTestSetSubDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_moveTestSetSubDialog_channel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_moveTestSetSubDialog_open">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_moveTestSetSubDialog_areaSet">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_moveTestSetSubDialog_warnOut">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>0</y>
+     <width>60</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_moveTestSetSubDialog_warnOrder">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>0</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00:00-24:00:00</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

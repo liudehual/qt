@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_videoSetSubDialog</class>
+ <widget class="QDialog" name="dialog_null_videoSetSubDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_videosetSubDialog_channel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_videosetSubDialog_myselfVideo">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>50</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_videosetSubDialog_timingVideoOne">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>0</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00:00-24:00:00</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_videosetSubDialog_timingVideoTwo">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>0</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00:00-24:00:00</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

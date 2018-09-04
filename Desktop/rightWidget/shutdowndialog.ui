@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_shutdownDialog</class>
+ <widget class="QDialog" name="dialog_null_shutdownDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>412</width>
+    <height>203</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_shutdownDialog_restart">
+   <property name="geometry">
+    <rect>
+     <x>304</x>
+     <y>60</y>
+     <width>73</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_shutdownDialog_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>352</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭系统</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_shutdownDialog_shutdown">
+   <property name="geometry">
+    <rect>
+     <x>352</x>
+     <y>0</y>
+     <width>60</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_shutdownDialog_loginout">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注销</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_shutdownDialog_shutdownDisplay">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_shutdownDialog_restart">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重启</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_shutdownDialog_loginout">
+   <property name="geometry">
+    <rect>
+     <x>24</x>
+     <y>60</y>
+     <width>73</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_shutdownDialog_shutdown">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>60</y>
+     <width>73</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

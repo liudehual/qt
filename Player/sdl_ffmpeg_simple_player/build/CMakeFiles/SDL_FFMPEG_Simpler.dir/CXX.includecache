@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gct/Share/SDL_FFMPE_PLAYER_1/FileIo.cpp
+
+/home/gct/Share/SDL_FFMPE_PLAYER_1/Main.cpp
+
+/home/gct/Share/SDL_FFMPE_PLAYER_1/Player.cpp
+

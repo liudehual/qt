@@ -1,0 +1,1 @@
+/home/gct/Share/SDL_FFMPE_PLAYER_1/build/CMakeFiles/SDL_FFMPEG_Simpler.dir

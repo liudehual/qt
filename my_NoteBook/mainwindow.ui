@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>NoteBook</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Desktop/6873641_102016646123_2.jpg</normaloff>../../Desktop/6873641_102016646123_2.jpg</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>5.000000000000000</double>
+  </property>
+  <property name="toolTip">
+   <string extracomment="This is NoteBook"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>581</width>
+      <height>551</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_create_new"/>
+    <addaction name="action_open"/>
+    <addaction name="action_save"/>
+    <addaction name="action_save_as"/>
+    <addaction name="separator"/>
+    <addaction name="action_page_set"/>
+    <addaction name="action_print_preview"/>
+    <addaction name="action_print"/>
+    <addaction name="separator"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_edit">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+    <addaction name="action_revoke"/>
+    <addaction name="separator"/>
+    <addaction name="action_cut"/>
+    <addaction name="action_copy"/>
+    <addaction name="action_paste"/>
+    <addaction name="action_delete"/>
+    <addaction name="separator"/>
+    <addaction name="action_find"/>
+    <addaction name="action_find_next"/>
+    <addaction name="action_replace"/>
+    <addaction name="action_go_to"/>
+    <addaction name="separator"/>
+    <addaction name="action_select_all"/>
+    <addaction name="action_date_and_time"/>
+    <addaction name="action_about_file"/>
+   </widget>
+   <widget class="QMenu" name="menu_view">
+    <property name="title">
+     <string>查看</string>
+    </property>
+    <addaction name="action_status"/>
+   </widget>
+   <widget class="QMenu" name="menu_help">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_about"/>
+    <addaction name="action_QT"/>
+   </widget>
+   <widget class="QMenu" name="menu_format">
+    <property name="title">
+     <string>格式</string>
+    </property>
+    <addaction name="action_auto_new_line"/>
+    <addaction name="action_front"/>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_edit"/>
+   <addaction name="menu_format"/>
+   <addaction name="menu_view"/>
+   <addaction name="menu_help"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNi">
+   <property name="text">
+    <string>ni</string>
+   </property>
+  </action>
+  <action name="action_create_new">
+   <property name="text">
+    <string>新建</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="action_open">
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_save">
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_save_as">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="action_page_set">
+   <property name="text">
+    <string>页面设置</string>
+   </property>
+  </action>
+  <action name="action_print">
+   <property name="text">
+    <string>打印</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="text">
+    <string>关于记事本</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="action_status">
+   <property name="text">
+    <string>状态栏</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+S</string>
+   </property>
+  </action>
+  <action name="action_auto_new_line">
+   <property name="text">
+    <string>自动换行</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="action_front">
+   <property name="text">
+    <string>字体</string>
+   </property>
+  </action>
+  <action name="action_revoke">
+   <property name="text">
+    <string>撤销</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="action_cut">
+   <property name="text">
+    <string>剪切</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="action_copy">
+   <property name="text">
+    <string>复制</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="action_paste">
+   <property name="text">
+    <string>粘贴</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="action_delete">
+   <property name="text">
+    <string>删除</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="action_find">
+   <property name="text">
+    <string>查找</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="action_find_next">
+   <property name="text">
+    <string>查找下一个</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+F</string>
+   </property>
+  </action>
+  <action name="action_replace">
+   <property name="text">
+    <string>替换</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="action_go_to">
+   <property name="text">
+    <string>转到</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="action_select_all">
+   <property name="text">
+    <string>全选</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="action_date_and_time">
+   <property name="text">
+    <string>时间日期</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="action_about_file">
+   <property name="text">
+    <string>关于文件</string>
+   </property>
+  </action>
+  <action name="action_QT">
+   <property name="text">
+    <string>关于QT</string>
+   </property>
+  </action>
+  <action name="action_print_preview">
+   <property name="text">
+    <string>打印预览</string>
+   </property>
+  </action>
+  <action name="action_save_2">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

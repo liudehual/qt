@@ -1,0 +1,6333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_null_systemSetDialog</class>
+ <widget class="QDialog" name="dialog_null_systemSetDialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="accessibleName">
+   <string/>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QTabWidget" name="tabWidget_systemDialog_tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>700</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="tab_systemDialog_general">
+    <attribute name="title">
+     <string>常规</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_general_subGeneral">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>常规</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_general_time">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>时间</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_general_user">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>用户</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_general">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>10</y>
+       <width>561</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="page_general_subGeneral">
+      <widget class="QLabel" name="label_subGeneral_transparent">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>透明度</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_subGeneral_VGAResolutionRatio">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VGA分辨率</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_subGeneral_guide">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>170</y>
+         <width>111</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开机显示向导</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_subGeneral_transparent">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>40</y>
+         <width>111</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_subGeneral_VGAResolutionRatio">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>111</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_subGeneral_sensorData">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>120</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>传感器数据</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_subGeneral_sensorData">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>120</y>
+         <width>111</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_general_time">
+      <widget class="QLabel" name="label_time_timeFormat">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>日期格式</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_time_dateSet">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>60</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>日期设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_time_timeSet">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>100</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>时间设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_time_timeArea">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>140</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>时区</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_time_autoGetTime">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>180</y>
+         <width>151</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>自动获取网络时间</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_time_timeFormat">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>20</y>
+         <width>121</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_time_timeArea">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>140</y>
+         <width>121</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_time_dateSet">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>60</y>
+         <width>151</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_time_timeSet">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>100</y>
+         <width>151</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_general_user">
+      <widget class="QLabel" name="label_user_userList">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>60</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>用户列表</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_user_autoLoginOut">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>180</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>自动注销</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_user_autoLoginOutTime">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>180</y>
+         <width>41</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>分钟</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_user_autoLoginOut">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>180</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_user_userList">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>60</y>
+         <width>111</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_user_userAdd">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>100</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_user_userEdit">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>100</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>编辑</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_user_userDel">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>130</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_general_sure">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_general_cancel">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_general_use">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>应用</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_systemDialog_channel">
+    <attribute name="title">
+     <string>通道</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_channel_stream">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>码流设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_channel_audioSet">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>210</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>音频设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_channel_videoSet">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>录像设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_channel_preview">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>预览设置</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_channel">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>581</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_channel_preview">
+      <widget class="QPushButton" name="pushButton_preview_copy">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>280</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>复制</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_setDefault">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>280</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>回复默认</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_channelSort">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>280</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道排序</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelIdKey">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>41</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelName">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道名称</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_OSDArea">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>OSD位置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_areaHide">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>区域遮挡</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_hide">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>10</y>
+         <width>41</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>隐藏</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_1">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>40</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_1">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>40</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_1">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>40</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_1">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>40</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_1">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>40</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_2">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>70</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_2">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>70</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_2">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>70</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_2">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>70</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>70</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_3">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>100</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_3">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>100</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_3">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>100</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_3">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>100</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_3">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>100</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_4">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>130</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_4">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>130</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_4">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>130</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_4">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>130</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_4">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>130</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_5">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>160</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_5">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>160</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_5">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>160</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_5">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>160</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_5">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>160</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>190</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_6">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>190</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_6">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>190</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_6">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>190</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_6">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>190</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_6">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>190</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_7">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>220</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_7">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>220</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_7">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>220</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_7">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>220</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_7">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>220</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_preview_channelId_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_arenHide_8">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>250</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_preview_areaHideSet_8">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>250</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_preview_hide_8">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>250</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_preview_OSD_8">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>250</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_preview_channelName_8">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>250</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_channel_stream">
+      <widget class="QLabel" name="label_stream_main">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>主码流</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_minor">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>10</y>
+         <width>51</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>次码流</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_mainChannelId">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>40</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_mainVideoResolutionRatio">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>40</y>
+         <width>51</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>分辨率</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_mainRate">
+       <property name="geometry">
+        <rect>
+         <x>205</x>
+         <y>40</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>码率(kbps)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_minorVideoResolutionRatio">
+       <property name="geometry">
+        <rect>
+         <x>295</x>
+         <y>40</y>
+         <width>51</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>分辨率</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_minorRate">
+       <property name="geometry">
+        <rect>
+         <x>385</x>
+         <y>40</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>码率(kbps)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_fluency">
+       <property name="geometry">
+        <rect>
+         <x>475</x>
+         <y>40</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>流畅度</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_1">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>70</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_1">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_1">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>70</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_1">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>70</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_1">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>70</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_1">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>70</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>100</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_2">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>100</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_2">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>100</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_2">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>100</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_2">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>100</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_4">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>160</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_3">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>130</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_4">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>160</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_4">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>160</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_3">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>130</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_4">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>160</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_3">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>130</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_3">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>130</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_4">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>160</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_3">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_6">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>220</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_5">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>190</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_6">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>220</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_6">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>220</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_5">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>190</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_6">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>220</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_5">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>190</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_5">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>190</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>190</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>220</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_6">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>220</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_5">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>190</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_8">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>280</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_7">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>250</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_mainRate_8">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>280</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_8">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>280</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_liuChangDu_7">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>250</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_8">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>280</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_7">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>250</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_minorFenBianLv_7">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>250</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>250</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_stream_channel_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>280</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_stream_minorRate_8">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>280</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_stream_fenbialv_7">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>250</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_channel_videoSet">
+      <widget class="QLabel" name="label_videoSet_channelId">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_manual">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>手动录像</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_videoFixTime">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>定时录像</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_videoFixTime_2">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>定时录像</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoSet_videoCopy">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>280</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>复制</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoSet_default">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>280</y>
+         <width>81</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>恢复默认</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_1">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_1">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>40</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_1">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>40</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_1">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>40</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>70</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_2">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>70</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_2">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>70</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_3">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>130</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_4">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>100</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_3">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>100</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_3">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>130</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_4">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>100</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_4">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>130</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_5">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>190</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>190</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_6">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>160</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_5">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>160</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_5">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>190</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_6">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>160</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_6">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>190</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_7">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>250</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>250</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_myselfVideo_8">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>220</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_7">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>220</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_7">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>250</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoSet_channel_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>220</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoTwo_8">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>220</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoSet_timingVideoOne_8">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>250</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_channel_audioSet">
+      <widget class="QLabel" name="label_audioSet_channelId">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音频</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_audioSet_audioZoom">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音频压缩</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_audioSet_listen">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>现场监听</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_audioSet_bind">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>绑定视频</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_audioZoom_1">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_audioSet_audio_1">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_audioSet_listen_1">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>50</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_bindVideo_1">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>50</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_audioSet_audio_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_audioSet_listen_2">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>80</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_bindVideo_2">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>80</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_audioZoom_2">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>80</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_audioSet_audio_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_audioSet_listen_3">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>110</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_bindVideo_4">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>140</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_audioSet_listen_4">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>140</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_audioZoom_4">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>140</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_audioSet_audio_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_bindVideo_3">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>110</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_audioSet_audioZoom_3">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>110</y>
+         <width>80</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_channel_sure">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_channnel_use">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>应用</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_channel_cancel">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_systemDialog_network">
+    <attribute name="title">
+     <string>网络</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_network_service">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>网络服务</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_network_wifi">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>无线网络 </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_network_wireless">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>有线网络</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_network">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>571</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_network_wifi">
+      <widget class="QLabel" name="label_wifi_ADSL">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>41</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ADSL</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wifi_connectionStatus">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>无链接</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wifi_ADSLName">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>用户名：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wifi_ADSLPassword">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>密码：</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wifi_ADSLName">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>50</y>
+         <width>211</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wifi_ADSLPassword">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>80</y>
+         <width>211</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wifi_Card">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>无线上网卡</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wifi_cardConnectionStatus">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>160</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>无链接</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_wifi_ADSLConnect">
+       <property name="geometry">
+        <rect>
+         <x>78</x>
+         <y>120</y>
+         <width>71</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>连接</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_wifi_ADSLDisconnect">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>120</y>
+         <width>71</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>断开</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_wifi_cardDisconnect">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>260</y>
+         <width>71</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>断开</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_wifi_cardConnect">
+       <property name="geometry">
+        <rect>
+         <x>78</x>
+         <y>260</y>
+         <width>71</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>连接</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wifi_cardPassword">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>220</y>
+         <width>211</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wifi_cardPassword">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>密码：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wifi_cardName">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>190</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>用户名：</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wifi_cardName">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>190</y>
+         <width>211</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_network_wireless">
+      <widget class="QCheckBox" name="checkBox_wireless_dhcp">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>171</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>自动获取IP（DHCP）</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_ip">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>56</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>IP</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wireless_ip">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_gateway">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>140</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>网关</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wireless_gateway">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>134</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_dns">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>180</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DNS</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wireless_dns">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>174</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_mask">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>96</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>子网掩码</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wireless_mask">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>90</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_mac">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MAC地址</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_wireless_mac">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>214</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_deviceId">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>270</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设备号</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_deviceStatus">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设备状态</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_id">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>270</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wireless_status">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>300</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>未链接</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_network_service">
+      <widget class="QLabel" name="label_service_videoForwardingAddr">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>70</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>视频转发地址</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_service_videoForwardingAddr">
+       <property name="geometry">
+        <rect>
+         <x>196</x>
+         <y>70</y>
+         <width>131</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_service_videoForwardingPort">
+       <property name="geometry">
+        <rect>
+         <x>334</x>
+         <y>70</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>端口</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_service_videoForwardingPort">
+       <property name="geometry">
+        <rect>
+         <x>374</x>
+         <y>70</y>
+         <width>71</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_service_videoUploadPort">
+       <property name="geometry">
+        <rect>
+         <x>374</x>
+         <y>110</y>
+         <width>71</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_service_videoUploadAddr">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>110</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>视频上传地址</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_service_videoUploadPort">
+       <property name="geometry">
+        <rect>
+         <x>334</x>
+         <y>110</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>端口</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_service_videoUploadAddr">
+       <property name="geometry">
+        <rect>
+         <x>196</x>
+         <y>110</y>
+         <width>131</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_network_cancel">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_network_sure">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_network_use">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>应用</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_systemDialog_warn">
+    <attribute name="title">
+     <string>报警</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_warn_deviceWarn">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设备报警</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_warn_videoLost">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>视频丢失</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_warn_moveTest">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>移动检测</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_warn_email">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>邮件设置</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_warn">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>551</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_warn_email">
+      <widget class="QLabel" name="label_email_recevierSet">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>20</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>收件人设置</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget_email_list">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>160</width>
+         <height>210</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_email_addList">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>260</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_email_editList">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>260</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>编辑</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_email_delList">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>260</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_email_senderSet">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>20</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>发件人设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_email_server">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>60</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>邮件服务器</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_email_safeType">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>100</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>安全类型</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_email_userName">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>140</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>用户名</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_email_userPassword">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>180</y>
+         <width>67</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>密码</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_email_interval">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>216</y>
+         <width>67</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>发送间隔</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_email_serverPort">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>60</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string> 端口 </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_email_serverPort">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>60</y>
+         <width>51</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_email_server">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>60</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_email_safeType">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>100</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_email_userName">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>140</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_email_userpassword">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>180</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_email_interval">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>210</y>
+         <width>51</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_email_minute">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>216</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>分钟</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_email_test">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>250</y>
+         <width>91</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>邮件测试</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_warn_moveTest">
+      <widget class="QLabel" name="label_moveTest_channelId">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_open">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>20</y>
+         <width>41</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开启</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_areaSet">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>区域设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_warnOut">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>报警输出</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_warnOrder">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>报警预约</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_selectAll">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>300</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>全选</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_default">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>300</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>恢复默认</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_1">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>50</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_1">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>50</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_1">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_1">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_1">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>50</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_2">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>80</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_2">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>80</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>80</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_2">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_3">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>110</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_3">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>110</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_3">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>140</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_3">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>110</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_4">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>140</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_4">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>140</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_4">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>110</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_4">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_5">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>170</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_5">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>170</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_5">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>200</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_5">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>170</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_6">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>200</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_6">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>200</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_6">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>170</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_6">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>200</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_7">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>230</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_7">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>230</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_7">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>260</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_7">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>230</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_warnOrder_8">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>260</y>
+         <width>160</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_moveTest_channel_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>260</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_moveTest_open_8">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>260</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_warnOut_8">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>230</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_moveTest_areaSet_8">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>260</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_warn_videoLost">
+      <widget class="QPushButton" name="pushButton_videoLost_selectAll">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>300</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>全选</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channelId">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_default">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>300</y>
+         <width>99</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>回复默认</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_warnOrder">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>报警预约</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_open">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>41</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开启</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_warnOut">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>报警输出</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_1">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_1">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>50</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_1">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>50</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_1">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_2">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>80</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>80</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_2">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>80</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_3">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>110</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_4">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>140</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_4">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>140</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_4">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>140</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_3">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>110</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_3">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>110</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_5">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>170</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_6">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>200</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_6">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>200</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_6">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>200</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_5">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>170</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_5">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>170</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_7">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>230</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>260</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_videoLost_warnOut_8">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>260</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_8">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>260</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_8">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>260</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_open_7">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>230</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_videoLost_warnOrder_7">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>230</y>
+         <width>180</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_videoLost_channel_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_warn_deviceWarn">
+      <widget class="QPushButton" name="pushButton_deviceWarn_selectAll">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>300</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>全选</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channelId">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_default">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>300</y>
+         <width>99</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>恢复默认</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_warnOrder">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>报警预约</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_open">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>41</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开启</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_model">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>功能模式</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_warnOut">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>20</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>报警输出</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_1">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>50</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_1">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>50</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_1">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_1">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>50</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_1">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>50</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>80</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_2">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>80</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_2">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>80</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_2">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>80</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_4">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>140</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_4">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>140</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_3">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>110</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_3">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>110</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_4">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>140</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_3">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>110</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_3">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>110</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_4">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>140</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_6">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>200</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_6">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>200</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_5">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>170</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_5">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>170</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_6">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>200</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_5">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>170</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_5">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>170</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_6">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>200</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>260</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_8">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>260</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_8">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>260</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_open_7">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>230</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_deviceWarn_warnOrder_7">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>230</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>00:00:00-24:00:00</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_8">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>260</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_deviceWarn_funcModel_7">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>230</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_deviceWarn_channel_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>30</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_7">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>230</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_deviceWarn_warnOut_8">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>260</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_warn_sure">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_warn_use">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>应用</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_warn_cancel">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_systemDialog_picManager">
+    <attribute name="title">
+     <string>图像</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_picManager_picManager">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>图像管理</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_picManager">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>10</y>
+       <width>411</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_picManager_picManager">
+      <widget class="QLabel" name="label_picManager_findType">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>67</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>搜索类型</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_picManager_findType">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_picManager_channelId">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_picManager_channelId">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>67</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget_picManager_list">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>100</y>
+         <width>190</width>
+         <height>180</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_picManager_selectAll">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>300</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>全选</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_picManager_del">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>300</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_picManager_backupToU">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>300</y>
+         <width>91</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>备份至U盘</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_picManager_open">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>20</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开启</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_picManager_end">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>60</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>结束</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_picManager_open">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>20</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_picManager_end">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_picManager_find">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>40</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>搜索</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_picManager_preview">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>100</y>
+         <width>281</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_picManager_notUse"/>
+    </widget>
+    <widget class="QPushButton" name="pushButton_picManager_sure">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_picManager_use">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>应用</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_picManager_cancel">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_systemDialog_system">
+    <attribute name="title">
+     <string>系统</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_system_info">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_system_log">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>日志</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_system_weihu">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>维护</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_system">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>10</y>
+       <width>501</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_system_log">
+      <widget class="QLabel" name="label_log_type">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>6</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>类型</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_log_type">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>10</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_log_selectAll">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>6</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>全部</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_log_selectAll">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>10</y>
+         <width>41</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_log_date">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>10</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>日期</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_log_date">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>10</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_log_time">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>84</y>
+         <width>30</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>时间</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_log_event">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>80</y>
+         <width>67</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>事件</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget_log_list">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>104</y>
+         <width>450</width>
+         <height>180</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_log_backupToU">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>290</y>
+         <width>99</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>备份至U盘</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_system_weihu">
+      <widget class="QCheckBox" name="checkBox_weihu_restart">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>97</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>定时重启</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_weihu_restart">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>10</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_weihu_updateType">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>67</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>升级方式</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_weihu_updateType">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>50</y>
+         <width>111</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_weihu_server">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>67</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>服务器</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_weihu_server">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>90</y>
+         <width>111</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_weihu_importConfig">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>99</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>导入配置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_weihu_exportConfig">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>160</y>
+         <width>99</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>导出配置</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_weihu_update">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>61</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>升级</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_weihu_register">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>210</y>
+         <width>61</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>注册</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_weihu_formatAll">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>210</y>
+         <width>99</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>恢复出厂设置</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_system_info">
+      <widget class="QLabel" name="label_info_productType">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>43</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>产品型号</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_deviceType">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>73</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设备型号</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_serialNumbers">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>产品序列号</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_softVersion">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>133</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>软件版本号</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_hardwareVersion">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>163</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>硬件版本号</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_releaseTime">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>193</y>
+         <width>91</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>软件发布时间</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_productTypeValue">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>40</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>12121</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_serialNumbersValue">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>97</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>222212</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_releaseTimeValue">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>190</y>
+         <width>91</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2015-12-10</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_hardwareVersionValue">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>160</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>21121</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_deviceTypeValue">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>70</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1212</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_info_softVersionValue">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>130</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1121212</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_system_sure">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_system_use">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>应用</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_system_cancel">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_systemDialog_other">
+    <attribute name="title">
+     <string>外设</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_other_yuntai">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>云台设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_other_memory">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>98</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>存储设备</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_other">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>521</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_other_memory">
+      <widget class="QLabel" name="label_memory_status">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>状态</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_memory_used">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>已使用</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_memory_size">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>容量</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_memory_disk">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>280</y>
+         <width>67</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>硬盘满时</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget_memory_list">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>500</width>
+         <height>241</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_memory_format">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>280</y>
+         <width>67</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>格式化</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_memory_deviceId">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>设备</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_memory_diskSize">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>280</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_other_yuntai">
+      <widget class="QLabel" name="label_yuntai_channelId">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>6</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>通道</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_yuntai_channelId">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>10</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_yuntai_baudRate">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>140</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>波特率</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_yuntai_baudRate">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>140</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_yuntai_protocol">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>100</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>协议类型</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_yuntai_protocol">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>100</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_yuntai_addr">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>60</y>
+         <width>85</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_yuntai_addr">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>60</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>云台地址</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_yuntai_leftRightExchange">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>190</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>左右控制互换</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_yuntai_upDownExchange">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>220</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>上下控制互换</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_yuntai_stopExchange">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>光圈变倍互换</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_yuntai_zoomedExchange">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>280</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>变焦变倍互换</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_yuntai_zoomExchange">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>310</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>变倍功能互换</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_other_use">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>应用</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_other_sure">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_other_cancel">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>350</y>
+       <width>97</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_systemSetDialog_title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>650</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>     系统设置</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_systemSetDialog_shutdown">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>0</y>
+     <width>50</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> X</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

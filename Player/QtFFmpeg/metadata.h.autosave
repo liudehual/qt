@@ -1,0 +1,16 @@
+#ifndef METADATA_H
+#define METADATA_H
+#include <stdio.h>
+class MetaData
+{
+public:
+    MetaData(void *parent=0,void *root=0);
+    virtual ~MetaData();
+    void *getParent();
+    void *getRoot();
+private:
+    void *fRoot;
+    void *fParent;
+};
+
+#endif // METADATA_H

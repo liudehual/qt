@@ -1,0 +1,18 @@
+实现了视频播放(实现音视频同步)
+实现功能:
+1. 播放暂停
+2. 快进
+3. 快退
+
+
+依赖库:
+ffmpeg   0.5.15
+Qt       4.8.6
+
+ffmpeg 配置:
+./configure --prefix=/usr/local/ --enable-static
+Qt 配置:
+1.  ./configure 
+2.  直接从官网下载安装包(推荐)
+
+	
